@@ -1,4 +1,4 @@
-module ki-d-assignment-1
+module ki-d-assignment
 
 go 1.20
 

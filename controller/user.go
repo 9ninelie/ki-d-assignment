@@ -1,10 +1,10 @@
 package controller
 
 import (
-	"ki-d-assignment-1/common"
-	"ki-d-assignment-1/dto"
-	"ki-d-assignment-1/entity"
-	"ki-d-assignment-1/service"
+	"ki-d-assignment/common"
+	"ki-d-assignment/dto"
+	"ki-d-assignment/entity"
+	"ki-d-assignment/service"
 	"net/http"
 
 	"github.com/gin-gonic/gin"

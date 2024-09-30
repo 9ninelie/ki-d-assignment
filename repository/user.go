@@ -2,7 +2,7 @@ package repository
 
 import (
 	"context"
-	"ki-d-assignment-1/entity"
+	"ki-d-assignment/entity"
 
 	"github.com/google/uuid"
 	"gorm.io/gorm"

@@ -1,9 +1,9 @@
 package routes
 
 import (
-	"ki-d-assignment-1/controller"
-	"ki-d-assignment-1/middleware"
-	"ki-d-assignment-1/service"
+	"ki-d-assignment/controller"
+	"ki-d-assignment/middleware"
+	"ki-d-assignment/service"
 
 	"github.com/gin-gonic/gin"
 )

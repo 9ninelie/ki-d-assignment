@@ -2,10 +2,10 @@ package service
 
 import (
 	"context"
-	"ki-d-assignment-1/dto"
-	"ki-d-assignment-1/entity"
-	"ki-d-assignment-1/helpers"
-	"ki-d-assignment-1/repository"
+	"ki-d-assignment/dto"
+	"ki-d-assignment/entity"
+	"ki-d-assignment/helpers"
+	"ki-d-assignment/repository"
 
 	"github.com/google/uuid"
 	"github.com/mashingan/smapping"

@@ -1,7 +1,7 @@
 package common
 
 import (
-	"ki-d-assignment-1/entity"
+	"ki-d-assignment/entity"
 	"math"
 
 	"gorm.io/gorm"

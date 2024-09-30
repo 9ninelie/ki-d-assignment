@@ -2,7 +2,7 @@ package config
 
 import (
 	"fmt"
-	"ki-d-assignment-1/entity"
+	"ki-d-assignment/entity"
 	"os"
 
 	"gorm.io/driver/postgres"

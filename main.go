@@ -1,12 +1,12 @@
 package main
 
 import (
-	"ki-d-assignment-1/common"
-	"ki-d-assignment-1/config"
-	"ki-d-assignment-1/controller"
-	"ki-d-assignment-1/repository"
-	"ki-d-assignment-1/routes"
-	"ki-d-assignment-1/service"
+	"ki-d-assignment/common"
+	"ki-d-assignment/config"
+	"ki-d-assignment/controller"
+	"ki-d-assignment/repository"
+	"ki-d-assignment/routes"
+	"ki-d-assignment/service"
 	"net/http"
 	"os"
 

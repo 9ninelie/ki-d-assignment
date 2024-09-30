@@ -1,7 +1,7 @@
 package entity
 
 import (
-	"ki-d-assignment-1/helpers"
+	"ki-d-assignment/helpers"
 
 	"github.com/google/uuid"
 	"gorm.io/gorm"

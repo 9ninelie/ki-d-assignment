@@ -1,8 +1,8 @@
 package middleware
 
 import (
-	"ki-d-assignment-1/common"
-	"ki-d-assignment-1/service"
+	"ki-d-assignment/common"
+	"ki-d-assignment/service"
 	"net/http"
 	"strings"
 
