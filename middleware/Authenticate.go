@@ -1,8 +1,8 @@
 package middleware
 
 import (
-	"gin-gorm-clean-template/common"
-	"gin-gorm-clean-template/service"
+	"ki-d-assignment-1/common"
+	"ki-d-assignment-1/service"
 	"net/http"
 	"strings"
 

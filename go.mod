@@ -1,4 +1,4 @@
-module gin-gorm-clean-template
+module ki-d-assignment-1
 
 go 1.20
 

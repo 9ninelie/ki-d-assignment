@@ -1,12 +1,12 @@
 package main
 
 import (
-	"gin-gorm-clean-template/common"
-	"gin-gorm-clean-template/config"
-	"gin-gorm-clean-template/controller"
-	"gin-gorm-clean-template/repository"
-	"gin-gorm-clean-template/routes"
-	"gin-gorm-clean-template/service"
+	"ki-d-assignment-1/common"
+	"ki-d-assignment-1/config"
+	"ki-d-assignment-1/controller"
+	"ki-d-assignment-1/repository"
+	"ki-d-assignment-1/routes"
+	"ki-d-assignment-1/service"
 	"net/http"
 	"os"
 
@@ -25,11 +25,11 @@ func main() {
 
 	var (
 		db *gorm.DB = config.SetupDatabaseConnection()
-		
+
 		jwtService service.JWTService = service.NewJWTService()
 
 		userRepository repository.UserRepository = repository.NewUserRepository(db)
-		userService service.UserService = service.NewUserService(userRepository)
+		userService    service.UserService       = service.NewUserService(userRepository)
 		userController controller.UserController = controller.NewUserController(userService, jwtService)
 	)
 

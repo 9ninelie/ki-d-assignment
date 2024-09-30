@@ -1,9 +1,9 @@
 package routes
 
 import (
-	"gin-gorm-clean-template/controller"
-	"gin-gorm-clean-template/middleware"
-	"gin-gorm-clean-template/service"
+	"ki-d-assignment-1/controller"
+	"ki-d-assignment-1/middleware"
+	"ki-d-assignment-1/service"
 
 	"github.com/gin-gonic/gin"
 )
